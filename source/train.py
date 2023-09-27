@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0,'./keops')
+sys.path.append('./keops')
 
 import os
 os.environ["USE_KEOPS"] = "False"
@@ -109,7 +109,7 @@ def run_training_process(run_params):
     
     # train and test
     trainer.fit(model, datamodule=MyDataModule())
-    trainer.test(ckpt_path=checkpoint_callback.best_model_path)
+    trainer.test(ckpt_path=checkpoint_callback.best_model_path, dataloaders=test_loader)
 
     
 if __name__ == "__main__":

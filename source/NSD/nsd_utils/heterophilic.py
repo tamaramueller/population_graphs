@@ -22,8 +22,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 
-sys.path.append("../../")
-import utils
+sys.path.append(osp.join(ROOT_DIR, "../"))
+from utils import utils
 
 
 def create_train_test_val_masks_levelled(labels, test_size=0.2, validation_size=0.1, random_state=None):
