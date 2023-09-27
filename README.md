@@ -31,8 +31,10 @@ The structure of the repository is as follows:
 We are using Cuda ```11.7```
 ```
 conda env create -f environment.yaml
-conda install pyg -c pyg
+pip install torch_geometric
+pip install torch-cluster -f https://data.pyg.org/whl/torch-2.0.0+cu117.html
 pip install torch-scatter -f https://data.pyg.org/whl/torch-2.0.0+cu117.html
+pip install torch-sparse -f https://data.pyg.org/whl/torch-2.0.0+cu117.html
 ```
 
 
