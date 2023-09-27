@@ -26,13 +26,13 @@ The structure of the repository is as follows:
 Example for running dynamic graph construction:
 
 ```
-python train.py --dataset tadpole --method DGM
+python train.py --dataset tadpole --method DGM --ffun gcn --gfun gcn
 ```
 
 Example for running static graph construction:
 
 ```
-python train.py --dataset tadpole --method static
+python train.py --dataset tadpole --method static --model_type GCN
 ```
 
 Example for running neural diffusion model:
