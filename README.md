@@ -28,7 +28,7 @@ The structure of the repository is as follows:
 
 ***Environment***: To install the environment, run the following code:
 
-We are using Cuda ```11.7```
+We are using Cuda ```11.7``` and ```Python 3.10.8```
 ```
 conda env create -f environment.yaml
 pip install torch_geometric
