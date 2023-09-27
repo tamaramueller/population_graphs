@@ -50,8 +50,7 @@ python train.py --dataset tadpole --method static --model_type GCN
 Example for running neural diffusion model:
 
 ```
-cd source/NSD/
-sh exp/scripts/run_cora.sh
+python NSD/exp/run.py --dataset cora --d 3 --layers 4 --hidden_channels 50 --lr 0.01 --model BundleSheaf
 ```
 
 
