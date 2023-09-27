@@ -23,11 +23,25 @@ The structure of the repository is as follows:
     - **NSD**: contains the code required to run the Neural Sheaf Diffusion models from [2].
 - ```train.py``` is the training script to train population graphs.
 
-Examples for running dynamic graph construction:
+Example for running dynamic graph construction:
 
 ```
 python train.py --dataset tadpole --method DGM
 ```
+
+Example for running static graph construction:
+
+```
+python train.py --dataset tadpole --method static
+```
+
+Example for running neural diffusion model:
+
+```
+python train_nsd.py --dataset tadpole
+```
+
+
 
 [1] Kazi, Anees, et al. "Differentiable graph module (dgm) for graph convolutional networks." IEEE Transactions on Pattern Analysis and Machine Intelligence 45.2 (2022): 1606-1617.
 
