@@ -4,7 +4,6 @@ channels:
   - pip
   - conda-forge
   - defaults
-  - pyg
 dependencies:
   - python==3.10.8
   - pytorch::pytorch==2.0.0
