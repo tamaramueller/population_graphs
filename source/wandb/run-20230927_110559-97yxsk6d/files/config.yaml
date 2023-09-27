@@ -1,0 +1,182 @@
+wandb_version: 1
+
+epochs:
+  desc: null
+  value: 1500
+lr:
+  desc: null
+  value: 0.05
+weight_decay:
+  desc: null
+  value: 0.0005
+sheaf_decay:
+  desc: null
+  value: 0.0005
+early_stopping:
+  desc: null
+  value: 200
+min_acc:
+  desc: null
+  value: 0.0
+stop_strategy:
+  desc: null
+  value: loss
+d:
+  desc: null
+  value: 3
+layers:
+  desc: null
+  value: 2
+normalised:
+  desc: null
+  value: true
+deg_normalised:
+  desc: null
+  value: false
+linear:
+  desc: null
+  value: false
+hidden_channels:
+  desc: null
+  value: 50
+input_dropout:
+  desc: null
+  value: 0.0
+dropout:
+  desc: null
+  value: 0.0
+left_weights:
+  desc: null
+  value: true
+right_weights:
+  desc: null
+  value: true
+add_lp:
+  desc: null
+  value: false
+add_hp:
+  desc: null
+  value: false
+use_act:
+  desc: null
+  value: true
+second_linear:
+  desc: null
+  value: false
+orth:
+  desc: null
+  value: householder
+sheaf_act:
+  desc: null
+  value: tanh
+edge_weights:
+  desc: null
+  value: true
+sparse_learner:
+  desc: null
+  value: false
+dataset:
+  desc: null
+  value: cora
+seed:
+  desc: null
+  value: 43
+cuda:
+  desc: null
+  value: 0
+folds:
+  desc: null
+  value: 10
+model:
+  desc: null
+  value: BundleSheaf
+entity:
+  desc: null
+  value: null
+evectors:
+  desc: null
+  value: 0
+max_t:
+  desc: null
+  value: 1.0
+int_method:
+  desc: null
+  value: null
+step_size:
+  desc: null
+  value: 1
+max_iters:
+  desc: null
+  value: 100
+adjoint_method:
+  desc: null
+  value: adaptive_heun
+adjoint:
+  desc: null
+  value: false
+adjoint_step_size:
+  desc: null
+  value: 1
+tol_scale:
+  desc: null
+  value: 1.0
+tol_scale_adjoint:
+  desc: null
+  value: 1.0
+max_nfe:
+  desc: null
+  value: 1000
+no_early:
+  desc: null
+  value: false
+earlystopxT:
+  desc: null
+  value: 3
+max_test_steps:
+  desc: null
+  value: 100
+sha:
+  desc: null
+  value: da6f6741f143e53a57f9ed70b3b36323b2fbda3d
+graph_size:
+  desc: null
+  value: 2708
+input_dim:
+  desc: null
+  value: 1433
+output_dim:
+  desc: null
+  value: 7
+device:
+  desc: null
+  value: cuda:0
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.9
+    cli_version: 0.15.9
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1695805559.322714
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      - 77
+      2:
+      - 1
+      - 5
+      - 53
+      - 55
+      - 77
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.9.9
+      5: 0.15.9
+      8:
+      - 5
