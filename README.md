@@ -25,6 +25,16 @@ The structure of the repository is as follows:
 - ```train.py``` is the training script to train population graphs.
 
 ### Running the Code
+
+***Environment***: To install the environment, run the following code:
+```
+conda env create -f environment.yaml
+pip install torch-scatter==2.0.8 -f https://data.pyg.org/whl/torch-1.8.1+cu101.html
+pip install torch-sparse==0.6.12 -f https://data.pyg.org/whl/torch-1.8.1+cu101.html
+pip install torch-geometric
+```
+
+
 Example for running dynamic graph construction:
 
 ```
