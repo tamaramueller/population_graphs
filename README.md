@@ -14,6 +14,7 @@ In our work, we use several different datasets. We here include the publicly ava
 - TADPOLE [4]
 - ABIDE [5]
 
+### Repo Structure
 The structure of the repository is as follows:
 - **data**: contains all publicly available datasets used in our work (Cora, CiteSeer, PubMed, TADPOLE, ABIDE)
 - **source**: contains the source code.
@@ -23,6 +24,7 @@ The structure of the repository is as follows:
     - **NSD**: contains the code required to run the Neural Sheaf Diffusion models from [2].
 - ```train.py``` is the training script to train population graphs.
 
+### Running the Code
 Example for running dynamic graph construction:
 
 ```
@@ -42,7 +44,7 @@ python train_nsd.py --dataset tadpole
 ```
 
 
-
+### References
 [1] Kazi, Anees, et al. "Differentiable graph module (dgm) for graph convolutional networks." IEEE Transactions on Pattern Analysis and Machine Intelligence 45.2 (2022): 1606-1617.
 
 [2] Bodnar, Cristian, et al. "Neural sheaf diffusion: A topological perspective on heterophily and oversmoothing in gnns." Advances in Neural Information Processing Systems 35 (2022): 18527-18541.
