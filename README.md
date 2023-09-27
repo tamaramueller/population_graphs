@@ -50,7 +50,8 @@ python train.py --dataset tadpole --method static --model_type GCN
 Example for running neural diffusion model:
 
 ```
-python train_nsd.py --dataset tadpole
+cd source/NSD/
+sh exp/scripts/run_cora.sh
 ```
 
 
@@ -58,3 +59,9 @@ python train_nsd.py --dataset tadpole
 [1] Kazi, Anees, et al. "Differentiable graph module (dgm) for graph convolutional networks." IEEE Transactions on Pattern Analysis and Machine Intelligence 45.2 (2022): 1606-1617.
 
 [2] Bodnar, Cristian, et al. "Neural sheaf diffusion: A topological perspective on heterophily and oversmoothing in gnns." Advances in Neural Information Processing Systems 35 (2022): 18527-18541.
+
+[3] Yang, Zhilin, William Cohen, and Ruslan Salakhudinov. "Revisiting semi-supervised learning with graph embeddings." International conference on machine learning. PMLR, 2016.
+
+[4] Yu, Shuangzhi, et al. "Multi-scale enhanced graph convolutional network for early mild cognitive impairment detection." Medical Image Computing and Computer Assisted Intervention–MICCAI 2020: 23rd International Conference, Lima, Peru, October 4–8, 2020, Proceedings, Part VII 23. Springer International Publishing, 2020.
+
+[5] Di Martino, Adriana, et al. "The autism brain imaging data exchange: towards a large-scale evaluation of the intrinsic brain architecture in autism." Molecular psychiatry 19.6 (2014): 659-667.
