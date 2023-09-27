@@ -29,10 +29,7 @@ The structure of the repository is as follows:
 ***Environment***: To install the environment, run the following code:
 ```
 conda env create -f environment.yaml
-pip install torch-scatter==2.0.8 -f https://data.pyg.org/whl/torch-1.8.1+cu101.html
-pip install torch-sparse -f https://data.pyg.org/whl/torch-1.8.1+cu101.html
-pip install torch-cluster
-pip install torch-geometric
+conda install pyg -c pyg 
 ```
 
 
