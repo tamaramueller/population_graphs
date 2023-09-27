@@ -36,19 +36,19 @@ conda install pyg -c pyg
 Example for running dynamic graph construction:
 
 ```
-python train.py --dataset tadpole --method DGM --ffun gcn --gfun gcn
+python source/train.py --dataset tadpole --method DGM --ffun gcn --gfun gcn
 ```
 
 Example for running static graph construction:
 
 ```
-python train.py --dataset tadpole --method static --model_type GCN
+python source/train.py --dataset tadpole --method static --model_type GCN
 ```
 
 Example for running neural diffusion model:
 
 ```
-python NSD/exp/run.py --dataset cora --d 3 --layers 4 --hidden_channels 50 --lr 0.01 --model BundleSheaf
+python source/NSD/exp/run.py --dataset cora --d 3 --layers 4 --hidden_channels 50 --lr 0.01 --model BundleSheaf
 ```
 
 
