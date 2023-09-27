@@ -27,35 +27,38 @@ The structure of the repository is as follows:
 ### Running the Code
 
 ***Environment***: To install the environment, run the following code:
+
+We are using Cuda ```11.7```
 ```
 conda env create -f environment.yaml
-pip install torch-scatter==2.0.8 -f https://data.pyg.org/whl/torch-1.8.1+cu101.html
-pip install torch-sparse==0.6.12 -f https://data.pyg.org/whl/torch-1.8.1+cu101.html
-pip install torch-geometric
+pip install torch_geometric
+pip install torch-cluster -f https://data.pyg.org/whl/torch-2.0.0+cu117.html
+pip install torch-scatter -f https://data.pyg.org/whl/torch-2.0.0+cu117.html
+pip install torch-sparse -f https://data.pyg.org/whl/torch-2.0.0+cu117.html
 ```
 
 
 Example for running dynamic graph construction:
 
 ```
-python train.py --dataset tadpole --method DGM --ffun gcn --gfun gcn
+python source/train.py --dataset tadpole --method DGM --ffun gcn --gfun gcn
 ```
 
 Example for running static graph construction:
 
 ```
-python train.py --dataset tadpole --method static --model_type GCN
+python source/train.py --dataset tadpole --method static --model_type GCN
 ```
 
 Example for running neural diffusion model:
 
 ```
-python NSD/exp/run.py --dataset cora --d 3 --layers 4 --hidden_channels 50 --lr 0.01 --model BundleSheaf
+python source/NSD/exp/run.py --dataset cora --d 3 --layers 4 --hidden_channels 50 --lr 0.01 --model BundleSheaf
 ```
 
 
 ### References
-[1] Kazi, Anees, et al. "Differentiable graph module (dgm) for graph convolutional networks." IEEE Transactions on Pattern Analysis and Machine Intelligence 45.2 (2022): 1606-1617.
+[1] Kazi, Anees, et al. "Differentiable graph module (DGM) for graph convolutional networks." IEEE Transactions on Pattern Analysis and Machine Intelligence 45.2 (2022): 1606-1617.
 
 [2] Bodnar, Cristian, et al. "Neural sheaf diffusion: A topological perspective on heterophily and oversmoothing in gnns." Advances in Neural Information Processing Systems 35 (2022): 18527-18541.
 
