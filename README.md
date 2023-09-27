@@ -7,8 +7,16 @@ This repository contains source code for population graph studies using differen
 
 We furthermore evaluate different baselines and compare the performance.
 
+In our work, we use several different datasets. We here include the publicly available datasets
+- Cora
+- CiteSeer
+- PubMed
+- Tadpole
+- Abide
+
 The structure of the repository is as follows:
-- xxx
+- data: contains all publicly available datasets used in our work
+- source: contains the source code
 
 
 
