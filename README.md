@@ -8,15 +8,19 @@ This repository contains source code for population graph studies using differen
 We furthermore evaluate different baselines and compare the performance.
 
 In our work, we use several different datasets. We here include the publicly available datasets
-- Cora
-- CiteSeer
-- PubMed
-- Tadpole
-- Abide
+- Cora [3]
+- CiteSeer [3]
+- PubMed [3]
+- TADPOLE [4]
+- ABIDE [5]
 
 The structure of the repository is as follows:
-- data: contains all publicly available datasets used in our work
-- source: contains the source code
+- **data**: contains all publicly available datasets used in our work (Cora, CiteSeer, PubMed, TADPOLE, ABIDE)
+- **source**: contains the source code.
+    - **notebooks**: contains the notebook to run the baseline experiments ```baslines.ipynb```.
+    - **DGM**: contains the code required to run the dDGM method from Kazi et al. [1].
+    - **NSD**: contains the code required to run the Neural Sheaf Diffusion models from [2].
+- ```train.py``` is the training script to train population graphs.
 
 
 
