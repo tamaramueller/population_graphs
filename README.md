@@ -1,5 +1,24 @@
 # Are Population Graphs Really as Powerful as Believed?
 
+---
+Publication:
+```
+Mueller, Tamara T., et al. "Are Population Graphs Really as Powerful as Believed?" Transactions on Machine Learning Research (2024).
+```
+
+Bibtex:
+```
+@article{
+    mueller2024are,
+    title={Are Population Graphs Really as Powerful as Believed?},
+    author={Tamara T. Mueller and Sophie Starck and Kyriaki-Margarita and Alexander Ziller and Rickmer Braren and Georgios Kaissis and Daniel Rueckert},
+    journal={Transactions on Machine Learning Research},
+    year={2024},
+    url={https://openreview.net/forum?id=TTRDCVnbjI},
+}
+```
+---
+
 This repository contains source code for population graph studies using different graph construction methods:
 - Static graph construction methods using $k$-NN graphs and (a) the Euclidean distance or (b) Cosine distance.
 - Dynamic graph construction methods using the method dDGM from Kazi et al. [1]
