@@ -38,7 +38,7 @@ The structure of the repository is as follows:
 - **data**: contains all publicly available datasets used in our work (Cora, CiteSeer, PubMed, TADPOLE, ABIDE)
 - **source**: contains the source code.
     - **notebooks**: contains the notebook to run the baseline experiments ```baslines.ipynb```.
-    - **utils**: contains utils and graph metrics in ```utils.py`` and ```graph_metrics.py```.
+    - **utils**: contains utils and graph metrics in ```utils.py``` and ```graph_metrics.py```.
     - **DGM**: contains the code required to run the dDGM method from Kazi et al. [1].
     - **NSD**: contains the code required to run the Neural Sheaf Diffusion models from [2].
 - ```train.py``` is the training script to train population graphs.
